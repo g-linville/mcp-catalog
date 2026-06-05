@@ -3,5 +3,11 @@ shortDescription: multi-user everything server
 description: multi-user everything server
 serverUserType: multiUser
 runtime: npx
+env:
+- key: TEST
+  name: Test
+  required: true
+  sensitive: false
+  description: Test env.
 npxConfig:
   package: @modelcontextprotocol/server-everything
