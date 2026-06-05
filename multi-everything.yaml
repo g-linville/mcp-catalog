@@ -1,0 +1,7 @@
+name: Multi Everything
+shortDescription: multi-user everything server
+description: multi-user everything server
+serverUserType: multiUser
+runtime: npx
+npxConfig:
+  package: @modelcontextprotocol/server-everything
