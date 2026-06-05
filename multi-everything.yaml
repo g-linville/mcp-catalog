@@ -6,11 +6,12 @@ metadata:
 repoURL: https://github.com/g-linville/mcp-catalog
 serverUserType: multiUser
 runtime: npx
-env:
-- key: TEST
-  name: Test
-  required: true
-  sensitive: false
-  description: Test env.
+env: []
+#env:
+#- key: TEST
+#  name: Test
+#  required: true
+#  sensitive: false
+#  description: Test env.
 npxConfig:
   package: '@modelcontextprotocol/server-everything'
