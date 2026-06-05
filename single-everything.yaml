@@ -1,0 +1,20 @@
+name: Multi Everything
+shortDescription: multi-user everything server
+description: multi-user everything server
+metadata:
+  categories: Test
+repoURL: https://github.com/g-linville/mcp-catalog
+serverUserType: singleUser
+runtime: npx
+env: []
+env:
+- key: TEST
+  name: Test
+  required: true
+  sensitive: true
+  description: Test env.
+  secretBinding:
+    name: my-secret
+    key: key1
+npxConfig:
+  package: '@modelcontextprotocol/server-everything'
