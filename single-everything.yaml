@@ -1,6 +1,6 @@
-name: Multi Everything
-shortDescription: multi-user everything server
-description: multi-user everything server
+name: Single Everything
+shortDescription: single-user everything server
+description: single-user everything server
 metadata:
   categories: Test
 repoURL: https://github.com/g-linville/mcp-catalog
